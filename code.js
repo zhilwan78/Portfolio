@@ -4,7 +4,7 @@ function downloadCV() {
     
     var link = document.createElement("a");
     link.href = cvFilePath;
-    link.download = "CV.pdf"; // Set the desired name for the downloaded file
+    link.download = "https://github.com/zhilwan78/Portfolio/blob/main/CV.pdf"; // Set the desired name for the downloaded file
     link.click();
 }
 
