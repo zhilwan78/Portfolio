@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'outfit';
+    background: linear-gradient(#00abf0,#081b29);
+justify-items: center;
+}
+.con{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.conleft:hover{
+    width: 600px;
+    height: 550px;
+    position: absolute;
+    margin-left: 300px;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+ 
+    border-radius: 30%;
+    border-top: 5px solid #00abf0;
+    border-bottom: 5px solid #00abf0;
+    border-left: 10px solid #00abf0;
+    border-right: 10px solid #00abf0;
+    box-shadow: 15px 15px 6000px 20px rgb(134, 129, 152);
+
+}
+.conleft{
+    width: 600px;
+    height: 550px;
+    position: absolute;
+    margin-left: 300px;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+ 
+    border-radius: 30%;
+    border-top: 5px solid #00abf0;
+    border-bottom: 5px solid #00abf0;
+    border-left: 10px solid #00abf0;
+    border-right: 10px solid #00abf0;
+    box-shadow: 2px 2px 20px 2px rgb(134, 129, 152);
+    
+}
+.conleft h1{
+
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+ font-weight: 600;
+    color: #081b29;
+    font-size: 25px;
+}
+
+.conleft h2{
+margin-top: 20px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+ font-weight: 100;
+    color:#050f15;
+    font-size: 25px;
+    
+}
+.conleft hr{
+    height: 5px;
+    width: 200px;
+    justify-content: center;
+    justify-items: center;
+    border: 2px solid #00abf0;
+    border-radius: 5px;
+    background-color: #080808;
+    box-shadow: 5px 5px 10px 5px rgb(187, 179, 223);
+  
+}
+.conleft br{
+    justify-content: center;
+    justify-items: center;
+    border: none;
+    width: 120px;
+    height: 7px;
+    background-color: #080808;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#hr{
+    margin-left: 10px;
+    width: 375px;
+    background-color: transparent;
+    border: none;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+
+.con-input{
+    width: 400px;
+    height: 50px;
+    border: 2px solid #00abf0;
+    outline: none;
+    font-weight: 500;
+    background-color: transparent;
+    padding-left: 25px;
+    color: #080808;
+    border-radius: 50px;
+}
+.conleft textarea{height: 140px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.con-input:focus{
+    border: 2px solid #cdd4da ;
+}
+::placeholder{
+    color:#081b29;
+    
+}
+
+.conleft button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+align-items: center;
+margin-left: 40px;
+padding: 15px 30px;
+font-size: 16px;
+color: #081b29;
+gap: 10px;
+border: none;
+border-radius: 50px;
+background-color: #00abf0;
+cursor: pointer;
+}
+.conleft button:hover{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+align-items: center;
+margin-left: 40px;
+padding: 15px 30px;
+font-size: 16px;
+color: #081b29;
+gap: 10px;
+border: none;
+border-radius: 50px;
+background-color: #00abf0;
+cursor: pointer;
+box-shadow: 5px 5px 60px 5px rgb(134, 129, 152);
+}
+
+
+.conleft a {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    text-decoration: none;
+align-items: center;
+margin-left: 100px;
+padding: 15px 30px;
+font-size: 16px;
+color: #081b29;
+gap: 10px;
+border: none;
+border-radius: 50px;
+background-color: #00abf0;
+cursor: pointer;
+}
+.conleft a:hover{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    text-decoration: none;
+align-items: center;
+margin-left: 100px;
+padding: 15px 30px;
+font-size: 16px;
+color: #081b29;
+gap: 10px;
+border: none;
+border-radius: 50px;
+background-color: #00abf0;
+cursor: pointer;
+box-shadow: 5px 5px 60px 5px rgb(134, 129, 152);
+}
+
+
+
+.div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+@media (max-width:800px) {.con-input{
+    
+    width: 400px;
+    justify-content: center;
+    justify-items: center;
+}
+   
+}
+
