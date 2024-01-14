@@ -1,10 +1,10 @@
 function downloadCV() {
     // Replace "path/to/your-cv-file.pdf" with the actual path to your CV file
-    var cvFilePath = "https://github.com/zhilwan78/Portfolio/blob/main/CV.pdf";
+    var cvFilePath = "https://github.com//zhilwan78//Portfolio//blob//main//CV.pdf";
     
     var link = document.createElement("a");
     link.href = cvFilePath;
-    link.download = "https://github.com/zhilwan78/Portfolio/blob/main/CV.pdf"; // Set the desired name for the downloaded file
+    link.download = "https://github.com//zhilwan78//Portfolio//blob//main//CV.pdf"; // Set the desired name for the downloaded file
     link.click();
 }
 
